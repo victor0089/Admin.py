@@ -1,0 +1,26 @@
+myapp/
+│
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   └── images/
+│       └── logo.png
+│
+├── templates/
+│   ├── index.html
+│   ├── admin.html
+│   ├── edit_user.html
+│   ├── change_password.html
+│   ├── add_user.html
+│   └── login.html
+│
+├── myapp/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── routes.py
+│   └── forms.py
+│
+├── config.py
+└── run.py
