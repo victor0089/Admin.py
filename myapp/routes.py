@@ -21,7 +21,7 @@ def load_user(user_id):
     for user_data in users:
         if user_data['id'] == int(user_id):
             return User(user_data)
-
+# ....
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
